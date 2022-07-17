@@ -136,7 +136,7 @@
                 foreach ($projects as $value) {
                     echo '
                 <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-                    <div class="card shadow-sm h-100">
+                    <div class="card shadow-sm h-100 px-5 px-sm-0">
                         <div class="embed-responsive embed-responsive-16by9">
                             <img src="' . $value['img'] . '" class="embed-responsive-item card-img-top shadow-sm" alt="' . $value['title'] . '">
                         </div>
@@ -154,7 +154,7 @@
         </div>
     </div>
     <div class="shadow-sm" style="background-color: #5bae23;">
-        <div class="container py-5">
+        <div class="container pt-5 pb-4">
             <h3 class="mb-4 text-white">荣誉墙</h3>
             <div class="row">
                 <?php
@@ -162,7 +162,7 @@
                 foreach ($rongyuqiang as $value) {
                     echo '
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <img src="' . $value['img'] . '" class="rounded w-100 shadow-sm" alt="' . $value['text'] . '" title="' . $value['text'] . '">
+                    <img src="' . $value['img'] . '" class="rounded mb-4 px-5 mx-sm-0 w-100 shadow-sm" alt="' . $value['text'] . '" title="' . $value['text'] . '">
                 </div>';
                 }
                 ?>
@@ -184,8 +184,8 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="text-right">
-                        <img src="img/house-4414916_640.png" alt="学习和工作计划" style="height: 200px;" class="rounded shadow">
+                    <div class="text-center text-md-right">
+                        <img src="img/house-4414916_640.png" alt="学习和工作计划" style="height: 200px;" class="rounded shadow-sm">
                     </div>
                 </div>
             </div>
