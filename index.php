@@ -162,7 +162,7 @@
                 foreach ($rongyuqiang as $value) {
                     echo '
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <img src="' . $value['img'] . '" class="rounded mb-4 px-5 mx-sm-0 w-100 shadow-sm" alt="' . $value['text'] . '" title="' . $value['text'] . '">
+                    <img src="' . $value['img'] . '" class="rounded mb-4 px-5 px-sm-0 w-100 shadow-sm" alt="' . $value['text'] . '" title="' . $value['text'] . '">
                 </div>';
                 }
                 ?>
