@@ -85,7 +85,7 @@
                             <div class="h5 mb-3">—— 新一代 📌 <span class="text-danger">优质程序员</span></div>
                             <div class="lead mb-3">接单各类 <span class="font-weight-bold">中小型网站、小程序、机器人</span> 开发</div>
                             <div class="btns">
-                                <a class="btn btn-primary btn-lg" href="https://qm.qq.com/cgi-bin/qm/qr?k=M-b-gog7zKyGIPLFWvrv17fcmKFaU-vI&noverify=0">
+                                <a class="btn btn-primary btn-lg" target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=M-b-gog7zKyGIPLFWvrv17fcmKFaU-vI&noverify=0">
                                     立即咨询
                                 </a>
                                 <a href="#projects" class="btn btn-outline-success btn-lg ml-3">
