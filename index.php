@@ -88,7 +88,7 @@
                                 <a class="btn btn-primary btn-lg" href="https://qm.qq.com/cgi-bin/qm/qr?k=M-b-gog7zKyGIPLFWvrv17fcmKFaU-vI&noverify=0">
                                     立即咨询
                                 </a>
-                                <a href="#" class="btn btn-outline-success btn-lg ml-3">
+                                <a href="#projects" class="btn btn-outline-success btn-lg ml-3">
                                     项目展示
                                 </a>
                             </div>
@@ -121,13 +121,12 @@
                     </div>
                 </div>';
                 }
-
                 ?>
             </div>
         </div>
     </div>
 
-    <div class="shadow-sm">
+    <div class="shadow-sm" id="projects">
         <div class="container pt-5 pb-4">
             <h3 class="mb-4">项目展示</h3>
             <div class="row">
@@ -206,7 +205,7 @@
                 <li class="mb-2">微博：<a href="https://weibo.com/ponconsoft" class="text-white" target="_blank">weibo.com/ponconsoft</a></li>
                 <li class="mb-2">知乎：<a href="https://www.zhihu.com/people/ponconsoft" class="text-white" target="_blank">zhihu.com/people/ponconsoft</a></li>
                 <li class="mb-2">交流群：<a href="https://jq.qq.com/?_wv=1027&k=PQuZNehB" class="text-white" target="_blank">1085954565</a></li>
-                <li class="mb-2">V2EX：<a href="https://www.v2ex.com/member/oyp" class="text-white" target="_blank">https://v2ex.com/member/oyp</a></li>
+                <li class="mb-2">V2EX：<a href="https://www.v2ex.com/member/oyp" class="text-white" target="_blank">v2ex.com/member/oyp</a></li>
             </ul>
         </div>
     </div>
