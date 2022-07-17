@@ -201,7 +201,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-6">
-                    <ul class="mb-4 mb-lg-0">
+                    <ul>
                         <li class="mb-2">电话：<a href="tel:18870142713" class="text-white">18870142713</a>（微信QQ同号）</li>
                         <li class="mb-2">邮箱：<a href="mailto:ponconsoft@gmail.com" class="text-white">ponconsoft@gmail.com</a></li>
                         <li class="mb-2">微博：<a href="https://weibo.com/ponconsoft" class="text-white" target="_blank">weibo.com/ponconsoft</a></li>
@@ -212,7 +212,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-6">
-                    <div class="text-right">
+                    <div class="mt-4">
                         <img src="img/gongzhonghao.png" alt="Poncon Soft" class="w-100 img-fluid rounded shadow-sm">
                     </div>
                 </div>
