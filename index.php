@@ -199,14 +199,24 @@
             <div class="mb-3">
                 如果您有软件定制、网站开发、机器人开发等需求，或有任何意见和建议，欢迎联系我，我将竭诚为您服务。
             </div>
-            <ul>
-                <li class="mb-2">电话：<a href="tel:18870142713" class="text-white">18870142713</a>（微信QQ同号）</li>
-                <li class="mb-2">邮箱：<a href="mailto:ponconsoft@gmail.com" class="text-white">ponconsoft@gmail.com</a></li>
-                <li class="mb-2">微博：<a href="https://weibo.com/ponconsoft" class="text-white" target="_blank">weibo.com/ponconsoft</a></li>
-                <li class="mb-2">知乎：<a href="https://www.zhihu.com/people/ponconsoft" class="text-white" target="_blank">zhihu.com/people/ponconsoft</a></li>
-                <li class="mb-2">交流群：<a href="https://jq.qq.com/?_wv=1027&k=PQuZNehB" class="text-white" target="_blank">1085954565</a></li>
-                <li class="mb-2">V2EX：<a href="https://www.v2ex.com/member/oyp" class="text-white" target="_blank">v2ex.com/member/oyp</a></li>
-            </ul>
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="mb-4 mb-lg-0">
+                        <li class="mb-2">电话：<a href="tel:18870142713" class="text-white">18870142713</a>（微信QQ同号）</li>
+                        <li class="mb-2">邮箱：<a href="mailto:ponconsoft@gmail.com" class="text-white">ponconsoft@gmail.com</a></li>
+                        <li class="mb-2">微博：<a href="https://weibo.com/ponconsoft" class="text-white" target="_blank">weibo.com/ponconsoft</a></li>
+                        <li class="mb-2">知乎：<a href="https://www.zhihu.com/people/ponconsoft" class="text-white" target="_blank">zhihu.com/people/ponconsoft</a></li>
+                        <li class="mb-2">交流群：<a href="https://jq.qq.com/?_wv=1027&k=PQuZNehB" class="text-white" target="_blank">1085954565</a></li>
+                        <li class="mb-2">V2EX：<a href="https://www.v2ex.com/member/oyp" class="text-white" target="_blank">v2ex.com/member/oyp</a></li>
+                        <li>公众号：鹏优创（sssoyp）</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-right">
+                        <img src="img/gongzhonghao.png" alt="Poncon Soft" class="w-100 img-fluid rounded shadow-sm">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="shadow-sm text-center py-5">
