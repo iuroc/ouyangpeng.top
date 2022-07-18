@@ -283,7 +283,11 @@
                 赣公网安备 36010802000584号
             </a>
         </div>
-        <div class="mb-2">网站累计访问次数：1888</div>
+        <div class="mb-2">网站累计访问次数：<?php
+                                    echo $data['viewCount'];
+                                    $data['viewCount']++;
+                                    file_put_contents('api/data.json', json_encode($data));
+                                    ?></div>
     </div>
     <div onclick="$('html, body').animate({ scrollTop: 0 }, 500)" class="toTop text-center user-select-none p-2 rounded shadow border position-fixed bg-light" style="cursor: pointer; display: none; right: 30px; bottom: 30px;">
         <svg t="1658110161066" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2257" style="height: 30px;">
