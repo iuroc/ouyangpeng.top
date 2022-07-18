@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="referrer" content="never">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <!-- <meta name="referrer" content="never"> -->
     <title>鹏优创 - 新一代优质程序员</title>
     <meta name="description" content="新一代优质程序员，接单各类中小型网站、小程序、公众号机器人开发">
     <link rel="stylesheet" href="https://cdn.staticfile.org/bootstrap/4.6.0/css/bootstrap.min.css" />
@@ -51,6 +51,21 @@
                 }
             })
         })
+        /**
+         * 转到位置
+         */
+        function goNode(id) {
+            scrollTo(0, $('#' + id).position().top - 40)
+        }
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?021379b43b1e674fe96330ead7d4ee77";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
     </script>
 </head>
 
@@ -73,7 +88,7 @@
                     if (isset($value['children'])) {
                         $children = '';
                         foreach ($value['children'] as $v) {
-                            $children .= '<a class="dropdown-item" href="' . $v['url'] . '" ' . (isset($v['target']) ? 'target="' . $v['target'] . '"' : '') . '>' . (isset($v['icon']) ? '<img src="' . $v['icon'] . '" alt="Github" class="d-inline-block mr-2 align-middle" style="height: 1em;"><span class="align-middle">' : '<span>') . $v['name'] . '</span></a>';
+                            $children .= '<a class="dropdown-item" href="' . $v['url'] . '" ' . (isset($v['target']) ? 'target="' . $v['target'] . '"' : '') . '>' . (isset($v['icon']) ? '<img referrerPolicy="no-referrer" src="' . $v['icon'] . '" alt="Github" class="d-inline-block mr-2 align-middle" style="height: 1em;"><span class="align-middle">' : '<span>') . $v['name'] . '</span></a>';
                         }
                         echo '
                 <li class="nav-item dropdown">
@@ -87,7 +102,7 @@
                     } else {
                         echo '
                 <li class="nav-item ' . (isset($value['active']) ? 'active' : '') . '">
-                    <a class="nav-link" href="' . $value['url'] . '" ' . (isset($value['target']) ? 'target="' . $value['target'] . '"' : '') . '>' . (isset($value['icon']) ? '<img src="' . $value['icon'] . '" alt="Github" class="d-inline-block mr-1 mb-1" style="height: 1em;">' : '')  . $value['name'] . '</a>
+                    <a class="nav-link" href="' . $value['url'] . '" ' . (isset($value['target']) ? 'target="' . $value['target'] . '"' : '') . '>' . (isset($value['icon']) ? '<img referrerPolicy="no-referrer" src="' . $value['icon'] . '" alt="Github" class="d-inline-block mr-1 mb-1" style="height: 1em;">' : '')  . $value['name'] . '</a>
                 </li>';
                     }
                 }
@@ -96,7 +111,7 @@
             </ul>
         </div>
     </nav>
-    <div class="shadow-sm bg-light" style="margin-top: 56px;">
+    <div class="shadow-sm" style="margin-top: 56px; background-color: #e9ecef;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -120,19 +135,19 @@
                                 </svg> <span class="text-danger">优质程序员</span></div>
                             <div class="lead mb-3">接单各类 <span class="font-weight-bold">中小型网站、小程序、机器人</span> 开发</div>
                             <div class="btns">
-                                <a class="btn btn-primary btn-lg" target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=M-b-gog7zKyGIPLFWvrv17fcmKFaU-vI&noverify=0">
+                                <div class="btn btn-primary btn-lg" target="_blank" onclick="window.open('https://qm.qq.com/cgi-bin/qm/qr?k=M-b-gog7zKyGIPLFWvrv17fcmKFaU-vI&noverify=0')">
                                     立即咨询
-                                </a>
-                                <a href="javascript:scrollTo(0, $('#projects').position().top-40)" class="btn btn-outline-success btn-lg ml-3">
+                                </div>
+                                <div onclick="goNode('projects')" class="btn btn-outline-success btn-lg ml-3">
                                     项目展示
-                                </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 d-none d-md-block">
                     <div class="text-right">
-                        <img src="<?php echo $data['top_image'];  ?>" style="height: 300px;" alt="鹏优创" class="mt-3">
+                        <img referrerPolicy="no-referrer" src="<?php echo $data['top_image'];  ?>" style="height: 300px;" alt="鹏优创" class="mt-3">
                     </div>
                 </div>
             </div>
@@ -148,7 +163,7 @@
                     echo '
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="media p-3 border shadow-sm rounded align-items-center h-100">
-                        <img src="' . $value['icon'] . '" class="mr-3" alt="' . $value['title'] . '" style="width: 64px; height: 64px;">
+                        <img referrerPolicy="no-referrer" src="' . $value['icon'] . '" class="mr-3" alt="' . $value['title'] . '" style="width: 64px; height: 64px;">
                         <div class="media-body">
                             <h5 class="mt-0 font-weight-bold">' . $value['title'] . '</h5>
                             <div class="text-muted">' . $value['msg'] . '</div>
@@ -173,7 +188,7 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
                     <div class="card shadow-sm h-100 px-5 px-sm-0">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <img src="' . $value['img'] . '" class="embed-responsive-item card-img-top shadow-sm" alt="' . $value['title'] . '">
+                            <img referrerPolicy="no-referrer" src="' . $value['img'] . '" class="embed-responsive-item card-img-top shadow-sm" alt="' . $value['title'] . '">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">' . $value['title'] . '</h5>
@@ -198,7 +213,7 @@
                 foreach ($rongyuqiang as $value) {
                     echo '
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <img src="' . $value['img'] . '" class="rounded mb-4 px-5 px-sm-0 w-100 shadow-sm" alt="' . $value['text'] . '" title="' . $value['text'] . '">
+                    <img referrerPolicy="no-referrer" src="' . $value['img'] . '" class="rounded mb-4 px-5 px-sm-0 w-100 shadow-sm" alt="' . $value['text'] . '" title="' . $value['text'] . '">
                 </div>';
                 }
                 ?>
@@ -222,7 +237,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="text-center text-md-right">
-                        <img src="img/house-4414916_640.png" alt="学习和工作计划" style="height: 200px;" class="rounded shadow-sm">
+                        <img referrerPolicy="no-referrer" src="img/house-4414916_640.png" alt="学习和工作计划" style="height: 200px;" class="rounded shadow-sm">
                     </div>
                 </div>
             </div>
@@ -251,7 +266,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="mt-4">
-                        <img src="img/gongzhonghao.png" alt="Poncon Soft" class="w-100 img-fluid rounded shadow-sm">
+                        <img referrerPolicy="no-referrer" src="img/gongzhonghao.png" alt="Poncon Soft" class="w-100 img-fluid rounded shadow-sm">
                     </div>
                 </div>
             </div>
@@ -262,12 +277,13 @@
         <div class="mb-2">
             备案号：<a href="https://beian.miit.gov.cn/" class="text-dark" target="_blank">赣ICP备2022000371号-1</a>
         </div>
-        <div>
+        <div class="mb-2">
             <a target="_blank" class="text-dark" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=36010802000584">
-                <img src="https://p.ananas.chaoxing.com/star3/origin/6688ed27e29b4feef62cc2518e2e4de3.png" style="height: 1em;" class="align-middle" alt="公安备案">
+                <img referrerPolicy="no-referrer" src="https://p.ananas.chaoxing.com/star3/origin/6688ed27e29b4feef62cc2518e2e4de3.png" style="height: 1em;" class="align-middle" alt="公安备案">
                 赣公网安备 36010802000584号
             </a>
         </div>
+        <div class="mb-2">网站累计访问次数：1888</div>
     </div>
     <div onclick="$('html, body').animate({ scrollTop: 0 }, 500)" class="toTop text-center user-select-none p-2 rounded shadow border position-fixed bg-light" style="cursor: pointer; display: none; right: 30px; bottom: 30px;">
         <svg t="1658110161066" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2257" style="height: 30px;">
@@ -275,6 +291,7 @@
         </svg>
         <div class="small">回到顶部</div>
     </div>
+
 </body>
 
 </html>
