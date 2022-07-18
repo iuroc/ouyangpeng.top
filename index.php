@@ -286,7 +286,7 @@
         <div class="mb-2">网站累计访问次数：<?php
                                     echo $data['viewCount'];
                                     $data['viewCount']++;
-                                    file_put_contents('api/data.json', json_encode($data));
+                                    file_put_contents('api/data.json', json_encode($data, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
                                     ?></div>
     </div>
     <div onclick="$('html, body').animate({ scrollTop: 0 }, 500)" class="toTop text-center user-select-none p-2 rounded shadow border position-fixed bg-light" style="cursor: pointer; display: none; right: 30px; bottom: 30px;">
