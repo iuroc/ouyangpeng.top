@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, user-scalable=no, viewport-fit=cover">
-    <meta name="sogou_site_verification" content="WwMQIAKsOF" />
     <!-- <meta name="referrer" content="never"> -->
     <title>鹏优创 - 新一代优质程序员</title>
     <meta name="description" content="新一代优质程序员，接单各类中小型网站、小程序、公众号机器人开发">
