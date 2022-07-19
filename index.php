@@ -92,7 +92,7 @@
                         }
                         echo '
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="javasctipt:void(0)" id="navbarDropdown" role="button" data-toggle="dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">
                         ' . $value['name'] . '
                     </a>
                     <div class="dropdown-menu shadow">
