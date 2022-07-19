@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="https://cdn.staticfile.org/bootstrap/4.6.0/css/bootstrap.min.css" />
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.staticfile.org/bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/6.1.1/css/fontawesome.min.css">
     <link rel="apple-touch-icon" sizes="180x180" href="source/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="source/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="source/favicon/favicon-16x16.png">
