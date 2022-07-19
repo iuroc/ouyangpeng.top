@@ -70,48 +70,105 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand navbar-light bg-light shadow-sm fixed-top">
-        <a class="navbar-brand" href="/">
-            鹏优创
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <?php
-                $data = file_get_contents('api/data.json');
-                $data = json_decode($data, true);
-                $header = $data['header'];
-                foreach ($header as $value) {
-                    if (isset($value['children'])) {
-                        $children = '';
-                        foreach ($value['children'] as $v) {
-                            $children .= '<a class="dropdown-item" href="' . $v['url'] . '" ' . (isset($v['target']) ? 'target="' . $v['target'] . '"' : '') . '>' . (isset($v['icon']) ? '<img referrerPolicy="no-referrer" src="' . $v['icon'] . '" alt="Github" class="d-inline-block mr-2 align-middle" style="height: 1em;"><span class="align-middle">' : '<span>') . $v['name'] . '</span></a>';
-                        }
-                        echo '
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">
-                        ' . $value['name'] . '
-                    </a>
-                    <div class="dropdown-menu shadow">
-                        ' . $children . '
-                    </div>
-                </li>';
-                    } else {
-                        echo '
-                <li class="nav-item ' . (isset($value['active']) ? 'active' : '') . '">
-                    <a class="nav-link" href="' . $value['url'] . '" ' . (isset($value['target']) ? 'target="' . $value['target'] . '"' : '') . '>' . (isset($value['icon']) ? '<img referrerPolicy="no-referrer" src="' . $value['icon'] . '" alt="Github" class="d-inline-block mr-1 mb-1" style="height: 1em;">' : '')  . $value['name'] . '</a>
-                </li>';
-                    }
-                }
-                ?>
-
-            </ul>
-        </div>
-    </nav>
-    <div class="shadow-sm" style="margin-top: 56px; background-color: #e9ecef;">
+    <?php
+    require 'header.php';
+    $data = json_decode('{
+        "top_image": "img\/20220717112556.png",
+        "services": [
+            {
+                "title": "网站开发",
+                "msg": "各类中小型网站开发和搭建",
+                "icon": "img\/website.png"
+            },
+            {
+                "title": "小程序开发",
+                "msg": "各类小程序开发和搭建",
+                "icon": "img\/xiaochengxu.png"
+            },
+            {
+                "title": "公众号机器人开发",
+                "msg": "数据资源搜索、智能问答",
+                "icon": "img\/robot.png"
+            },
+            {
+                "title": "安卓APP开发",
+                "msg": "各类安卓手机软件开发设计",
+                "icon": "img\/android.png"
+            },
+            {
+                "title": "跨平台软件开发",
+                "msg": "Windows、Linux、MacOS",
+                "icon": "img\/code.png"
+            },
+            {
+                "title": "各类数据资源采集",
+                "msg": "音乐\/视频\/图片\/文档\/软件",
+                "icon": "img\/caiji.png"
+            }
+        ],
+        "projects": [
+            {
+                "title": "我爱听书",
+                "img": "https:\/\/p.ananas.chaoxing.com\/star3\/origin\/76e61b46c755550ee9641e4c157c7700.jpg",
+                "text": "一个免费提供海量有声读物在线搜索和试听的网站"
+            },
+            {
+                "title": "公众号文章管理系统",
+                "img": "https:\/\/p.ananas.chaoxing.com\/star3\/origin\/e60a7193fd4da6232a04f2a5afc3744a.jpg",
+                "text": "标签式管理公众号文章，支持全文模糊搜索和智能搜索，支持接入公众号"
+            },
+            {
+                "title": "My Pages",
+                "img": "https:\/\/p.ananas.chaoxing.com\/star3\/origin\/4f3972c941a8c568071c27549c7f322c.jpg",
+                "text": "一款标签化管理网页收藏的工具"
+            },
+            {
+                "title": "鹏创音乐网",
+                "img": "https:\/\/p.ananas.chaoxing.com\/star3\/origin\/b97a9c35f08303b48c8a7ca7a24d4432.jpg",
+                "text": "一个免费提供海量音乐在线搜索、试听和下载的网站"
+            },
+            {
+                "title": "鹏创影视网",
+                "img": "https:\/\/p.ananas.chaoxing.com\/star3\/origin\/cd97a8350b135b387e86c43070360fe3.jpg",
+                "text": "海量影视在线免费观看"
+            },
+            {
+                "title": "组卷与考试系统",
+                "img": "https:\/\/p.ananas.chaoxing.com\/star3\/origin\/670a812363ce200dd647105e414d55da.jpg",
+                "text": "信息技术知识模拟竞赛平台，可二次开发成为任何类型考试平台"
+            },
+            {
+                "title": "鹏创代码大师",
+                "img": "https:\/\/p.ananas.chaoxing.com\/star3\/origin\/a96af02702385f7803f108fd98864183.jpg",
+                "text": "新一代在线代码调试工具，支持30+种编程语言代码在线编辑调试"
+            },
+            {
+                "title": "鹏创阅读网",
+                "img": "https:\/\/p.ananas.chaoxing.com\/star3\/origin\/bb9c5dc6a71c71ba91aaa34780557902.jpg",
+                "text": "提供海量精品正版书刊在线阅读下载，界面清新简约，书刊资源丰富"
+            }
+        ],
+        "rongyuqiang": [
+            {
+                "img": "https:\/\/p.ananas.chaoxing.com\/star3\/origin\/0b893a902542b31547c69fc26bf56c02.png",
+                "text": "蓝桥杯全国总决赛二等奖"
+            },
+            {
+                "img": "https:\/\/p.ananas.chaoxing.com\/star3\/origin\/ce7f0a3ca2b13b131968696a6656ce4c.png",
+                "text": "蓝桥杯江西省一等奖"
+            },
+            {
+                "img": "https:\/\/p.ananas.chaoxing.com\/star3\/origin\/24d29f05195b68c654a8002aedbfe55e.jpeg",
+                "text": "三创赛校二等奖"
+            },
+            {
+                "img": "https:\/\/p.ananas.chaoxing.com\/star3\/origin\/5d179ab4d5b9f54db36f293398bae29a.png",
+                "text": "互联网+创新创业大赛优秀奖"
+            }
+        ]
+    }', true);
+    ?>
+    <div class="shadow-sm" style="background-color: #e9ecef;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -283,11 +340,11 @@
                 赣公网安备 36010802000584号
             </a>
         </div>
-        <div class="mb-2">网站累计访问次数：<?php
-                                    echo $data['viewCount'];
-                                    $data['viewCount']++;
-                                    file_put_contents('api/data.json', json_encode($data, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
-                                    ?></div>
+        <!-- <div class="mb-2">网站累计访问次数：<?php
+                                    // echo $data['viewCount'];
+                                    // $data['viewCount']++;
+                                    // file_put_contents('api/data.json', json_encode($data, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
+                                    ?></div> -->
     </div>
     <div onclick="$('html, body').animate({ scrollTop: 0 }, 500)" class="toTop text-center user-select-none p-2 rounded shadow border position-fixed bg-light" style="cursor: pointer; display: none; right: 30px; bottom: 30px;">
         <svg t="1658110161066" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2257" style="height: 30px;">
