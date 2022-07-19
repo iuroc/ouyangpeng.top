@@ -3,18 +3,26 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, user-scalable=no, viewport-fit=cover">
-    <!-- <meta name="referrer" content="never"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>鹏优创 - 新一代优质程序员</title>
-    <meta name="description" content="新一代优质程序员，接单各类中小型网站、小程序、公众号机器人开发">
+    <meta name="description" content="新一代优质程序员，接单各类中小型网站、小程序、公众号机器人开发。网站开发、小程序开发、公众号机器人开发、安卓APP开发、跨平台开发、各类数据资源采集">
+    <meta property="og:title" content="鹏优创 - 新一代优质程序员" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="鹏优创 - 新一代优质程序员" />
+    <meta property="og:url" content="https://ouyangpeng.top/" />
+    <meta property="og:title" content="鹏优创 - 新一代优质程序员" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="鹏优创 - 新一代优质程序员" />
+    <meta property="og:url" content="https://ouyangpeng.top/" />
     <link rel="stylesheet" href="https://cdn.staticfile.org/bootstrap/4.6.0/css/bootstrap.min.css" />
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.staticfile.org/bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/6.1.1/css/fontawesome.min.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="source/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="source/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="source/favicon/favicon-16x16.png">
+    <link rel="manifest" href="source/favicon/site.webmanifest">
     <style>
         *::selection {
             background: rgba(255, 71, 71, 0.3);
@@ -341,10 +349,10 @@
             </a>
         </div>
         <!-- <div class="mb-2">网站累计访问次数：<?php
-                                    // echo $data['viewCount'];
-                                    // $data['viewCount']++;
-                                    // file_put_contents('api/data.json', json_encode($data, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
-                                    ?></div> -->
+                                        // echo $data['viewCount'];
+                                        // $data['viewCount']++;
+                                        // file_put_contents('api/data.json', json_encode($data, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
+                                        ?></div> -->
     </div>
     <div onclick="$('html, body').animate({ scrollTop: 0 }, 500)" class="toTop text-center user-select-none p-2 rounded shadow border position-fixed bg-light" style="cursor: pointer; display: none; right: 30px; bottom: 30px;">
         <svg t="1658110161066" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2257" style="height: 30px;">
