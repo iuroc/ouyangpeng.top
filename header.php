@@ -13,7 +13,7 @@ $header = json_decode('[
     {
         "name": "Github",
         "url": "https:\/\/github.com\/oyps",
-        "icon": "img\/github-brands.svg",
+        "icon": "source\/image\/github-brands.svg",
         "target": "_blank"
     },
     {
@@ -22,25 +22,25 @@ $header = json_decode('[
             {
                 "name": "微博",
                 "url": "https:\/\/weibo.com\/ponconsoft",
-                "icon": "img\/weibo-brands.svg",
+                "icon": "source\/image\/weibo-brands.svg",
                 "target": "_blank"
             },
             {
                 "name": "知乎",
                 "url": "https:\/\/www.zhihu.com\/people\/ponconsoft",
-                "icon": "img\/zhihu.png",
+                "icon": "source\/image\/zhihu.png",
                 "target": "_blank"
             },
             {
                 "name": "交流群",
                 "url": "https:\/\/jq.qq.com\/?_wv=1027&k=PQuZNehB",
-                "icon": "img\/qq-brands.svg",
+                "icon": "source\/image\/qq-brands.svg",
                 "target": "_blank"
             },
             {
                 "name": "V2EX",
                 "url": "https:\/\/www.v2ex.com\/member\/oyp",
-                "icon": "img\/v2ex.png",
+                "icon": "source\/image\/v2ex.png",
                 "target": "_blank"
             }
         ]
