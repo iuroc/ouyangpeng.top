@@ -217,7 +217,7 @@
             </div>
         </div>
     </div>
-    <div class="shadow">
+    <div class="shadow-sm">
         <div class="container pt-5 pb-4">
             <h3 class="mb-4">服务项目</h3>
             <div class="row">
@@ -241,7 +241,7 @@
         </div>
     </div>
 
-    <div class="shadow-sm" id="projects">
+    <div class="shadow-sm" id="projects" style="background-color: #e9ecef;">
         <div class="container pt-5 pb-4">
             <h3 class="mb-4">项目展示</h3>
             <div class="row">
@@ -251,12 +251,12 @@
                     echo '
                 <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
                     <div class="card shadow-sm h-100 px-5 px-sm-0">
-                        <div class="embed-responsive embed-responsive-16by9">
+                        <div class="embed-responsive embed-responsive-16by9 border-bottom shadow-sm">
                             <img referrerPolicy="no-referrer" src="' . $value['img'] . '" class="embed-responsive-item card-img-top shadow-sm" alt="' . $value['title'] . '">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">' . $value['title'] . '</h5>
-                            <div class="card-text text-muted">
+                            <div class="card-text text-muted small">
                             ' . $value['text'] . '
                             </div>
                         </div>
