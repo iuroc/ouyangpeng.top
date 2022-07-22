@@ -7,8 +7,14 @@ $header = json_decode('[
         "active": true
     },
     {
-        "name": "应用中心",
-        "url": "\/app"
+        "name": "应用",
+        "children": [
+            {
+                "name": "My Pages",
+                "url": "app/mypages/",
+                "target": "_blank"
+            }
+        ]
     },
     {
         "name": "Github",
