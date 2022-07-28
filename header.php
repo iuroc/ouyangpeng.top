@@ -62,7 +62,7 @@ $header = json_decode('[
   }
 ]', true);
 echo '
-<nav class="navbar navbar-expand navbar-light bg-light shadow-sm fixed-top user-select-none">
+<nav class="navbar navbar-light bg-light navbar-expand-sm shadow-sm fixed-top user-select-none">
     <a class="navbar-brand" href="/">
         鹏优创
     </a>
