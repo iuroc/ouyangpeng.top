@@ -1,63 +1,68 @@
 <?php
 error_reporting(0);
 $header = json_decode('[
-    {
-        "name": "首页",
-        "url": "\/",
-        "active": true
-    },
-    {
-        "name": "应用",
-        "children": [
-            {
-                "name": "My Pages",
-                "url": "app/mypages/",
-                "target": "_blank"
-            }
-        ]
-    },
-    {
-        "name": "Github",
-        "url": "https:\/\/github.com\/oyps",
-        "icon": "source\/image\/github-brands.svg",
+  {
+    "name": "首页",
+    "url": "/",
+    "active": true
+  },
+  {
+    "name": "应用",
+    "children": [
+      {
+        "name": "My Pages",
+        "url": "https://ouyangpeng.top/app/mypages/",
         "target": "_blank"
-    },
-    {
-        "name": "关注我",
-        "children": [
-            {
-                "name": "微博",
-                "url": "https:\/\/weibo.com\/ponconsoft",
-                "icon": "source\/image\/weibo-brands.svg",
-                "target": "_blank"
-            },
-            {
-                "name": "知乎",
-                "url": "https:\/\/www.zhihu.com\/people\/ponconsoft",
-                "icon": "source\/image\/zhihu.png",
-                "target": "_blank"
-            },
-            {
-                "name": "交流群",
-                "url": "https:\/\/jq.qq.com\/?_wv=1027&k=PQuZNehB",
-                "icon": "source\/image\/qq-brands.svg",
-                "target": "_blank"
-            },
-            {
-                "name": "V2EX",
-                "url": "https:\/\/www.v2ex.com\/member\/oyp",
-                "icon": "source\/image\/v2ex.png",
-                "target": "_blank"
-            }
-        ]
-    },
-    {
-        "name": "关于",
-        "url": "javascript:goNode(\'about\')"
-    }
+      },
+      {
+        "name": "无忧音乐网",
+        "url": "https://ouyangpeng.top/app/wbqyy/",
+        "target": "_blank"
+      }
+    ]
+  },
+  {
+    "name": "Github",
+    "url": "https://github.com/oyps",
+    "icon": "https://ouyangpeng.top/source/image/github-brands.svg",
+    "target": "_blank"
+  },
+  {
+    "name": "关注我",
+    "children": [
+      {
+        "name": "微博",
+        "url": "https://weibo.com/ponconsoft",
+        "icon": "https://ouyangpeng.top/source/image/weibo-brands.svg",
+        "target": "_blank"
+      },
+      {
+        "name": "知乎",
+        "url": "https://www.zhihu.com/people/ponconsoft",
+        "icon": "https://ouyangpeng.top/source/image/zhihu.png",
+        "target": "_blank"
+      },
+      {
+        "name": "交流群",
+        "url": "https://jq.qq.com/?_wv=1027&k=PQuZNehB",
+        "icon": "https://ouyangpeng.top/source/image/qq-brands.svg",
+        "target": "_blank"
+      },
+      {
+        "name": "V2EX",
+        "url": "https://www.v2ex.com/member/oyp",
+        "icon": "https://ouyangpeng.top/source/image/v2ex.png",
+        "target": "_blank"
+      }
+    ]
+  },
+  {
+    "name": "关于",
+    "url": "javascript:goNode(\'about\')"
+  }
 ]', true);
 echo '
-<nav class="navbar navbar-expand navbar-light bg-light shadow-sm fixed-top">
+<nav class="navbar navbar-expand navbar-light bg-light shadow-sm fixed-top user-select-none">
     <a class="navbar-brand" href="/">
         鹏优创
     </a>
