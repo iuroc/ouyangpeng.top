@@ -58,7 +58,7 @@ $header = json_decode('[
   },
   {
     "name": "关于",
-    "url": "javascript:goNode(\'about\')"
+    "url": "https://ouyangpeng.top/#about"
   }
 ]', true);
 echo '
