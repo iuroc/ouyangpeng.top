@@ -67,7 +67,7 @@ $header = json_decode('[
       {
         "name": "关于",
         "url": "//ouyangpeng.top/#about",
-        "icon": "//ouyangpeng.top/source/image/circle-info-solid.png"
+        "icon": "//ouyangpeng.top/source/image/circle-info-solid.svg"
       }
     ]
   }
@@ -84,12 +84,12 @@ echo '
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">';
 foreach ($header as $value) {
-    if (isset($value['children'])) {
-        $children = '';
-        foreach ($value['children'] as $v) {
-            $children .= '<a class="dropdown-item" href="' . $v['url'] . '" ' . (isset($v['target']) ? 'target="' . $v['target'] . '"' : '') . '>' . (isset($v['icon']) ? '<img referrerPolicy="no-referrer" src="' . $v['icon'] . '" alt="Github" class="d-inline-block mr-2 align-middle" style="height: 1em;"><span class="align-middle">' : '<span>') . $v['name'] . '</span></a>';
-        }
-        echo '
+  if (isset($value['children'])) {
+    $children = '';
+    foreach ($value['children'] as $v) {
+      $children .= '<a class="dropdown-item" href="' . $v['url'] . '" ' . (isset($v['target']) ? 'target="' . $v['target'] . '"' : '') . '>' . (isset($v['icon']) ? '<img referrerPolicy="no-referrer" src="' . $v['icon'] . '" alt="' . $v['name'] . '" class="d-inline-block mr-2 align-middle" style="height: 1em;"><span class="align-middle">' : '<span>') . $v['name'] . '</span></a>';
+    }
+    echo '
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">
                     ' . $value['name'] . '
@@ -98,12 +98,12 @@ foreach ($header as $value) {
                     ' . $children . '
                 </div>
             </li>';
-    } else {
-        echo '
+  } else {
+    echo '
             <li class="nav-item ' . (isset($value['active']) ? 'active' : '') . '">
-                <a class="nav-link" href="' . $value['url'] . '" ' . (isset($value['target']) ? 'target="' . $value['target'] . '"' : '') . '>' . (isset($value['icon']) ? '<img referrerPolicy="no-referrer" src="' . $value['icon'] . '" alt="Github" class="d-inline-block mr-1 mb-1" style="height: 1em;">' : '')  . $value['name'] . '</a>
+                <a class="nav-link" href="' . $value['url'] . '" ' . (isset($value['target']) ? 'target="' . $value['target'] . '"' : '') . '>' . (isset($value['icon']) ? '<img referrerPolicy="no-referrer" src="' . $value['icon'] . '" alt="' . $v['name'] . '" class="d-inline-block mr-1 mb-1" style="height: 1em;">' : '')  . $value['name'] . '</a>
             </li>';
-    }
+  }
 }
 echo '
         </ul>
