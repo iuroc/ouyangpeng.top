@@ -15,18 +15,23 @@ $header = json_decode('[
         "target": "_blank"
       },
       {
-        "name": "无忧音乐网",
+        "name": "无忧音乐",
         "url": "http://i.ouyangpeng.top/wbqyy/",
         "target": "_blank"
       },
       {
-          "name": "鹏创书刊网",
+          "name": "鹏创书刊",
           "url": "http://i.ouyangpeng.top/books/",
           "target": "_blank"
       },
       {
-          "name": "模拟请求工具",
+          "name": "模拟请求",
           "url": "http://i.ouyangpeng.top/mnqq/",
+          "target": "_blank"
+      },
+      {
+          "name": "鹏创图床",
+          "url": "http://i.ouyangpeng.top/tuchuang/",
           "target": "_blank"
       }
     ]
