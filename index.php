@@ -325,7 +325,7 @@
                         <li class="mb-2">知乎：<a href="https://www.zhihu.com/people/ponconsoft" class="text-white" target="_blank">zhihu.com/people/ponconsoft</a></li>
                         <li class="mb-2">交流群：<a href="https://jq.qq.com/?_wv=1027&k=PQuZNehB" class="text-white" target="_blank">1085954565</a></li>
                         <li class="mb-2">V2EX：<a href="https://www.v2ex.com/member/oyp" class="text-white" target="_blank">v2ex.com/member/oyp</a></li>
-                        <li>公众号：鹏优创（sssoyp）</li>
+                        <li>公众号：鹏优创（ponconsoft）</li>
                     </ul>
                 </div>
                 <div class="col-lg-6">
