@@ -80,96 +80,96 @@
     <?php
     require 'header.php';
     $data = json_decode('{
-        "top_image": "source\/image\/20220717112556.png",
+        "top_image": "https://p.ananas.chaoxing.com/star3/origin/4c5ac69281fcf7b11c2c890ac1ecd474.png",
         "services": [
             {
                 "title": "网站开发",
                 "msg": "各类中小型网站开发和搭建",
-                "icon": "source\/image\/website.png"
+                "icon": "https://p.ananas.chaoxing.com/star3/origin/609c782cf9743dc81937d6e9f19468cf.png"
             },
             {
                 "title": "小程序开发",
                 "msg": "各类小程序开发和搭建",
-                "icon": "source\/image\/xiaochengxu.png"
+                "icon": "https://p.ananas.chaoxing.com/star3/origin/1b792a1e861932fcd83f65819b775185.png"
             },
             {
                 "title": "公众号机器人开发",
                 "msg": "数据资源搜索、智能问答",
-                "icon": "source\/image\/robot.png"
+                "icon": "https://p.ananas.chaoxing.com/star3/origin/aed50be25765051c8b3e7f41d35f5ff4.png"
             },
             {
                 "title": "安卓APP开发",
                 "msg": "各类安卓手机软件开发设计",
-                "icon": "source\/image\/android.png"
+                "icon": "https://p.ananas.chaoxing.com/star3/origin/e07afa863403e403a0a41ead306149a5.png"
             },
             {
                 "title": "跨平台软件开发",
                 "msg": "Windows、Linux、MacOS",
-                "icon": "source\/image\/code.png"
+                "icon": "https://p.ananas.chaoxing.com/star3/origin/70b0b8187a6877b475108b2a35dd34f9.png"
             },
             {
                 "title": "各类数据资源采集",
                 "msg": "音乐\/视频\/图片\/文档\/软件",
-                "icon": "source\/image\/caiji.png"
+                "icon": "https://p.ananas.chaoxing.com/star3/origin/9d5b608b02800f3da7b408e6c1422c41.png"
             }
         ],
         "projects": [
             {
                 "title": "我爱听书",
-                "img": "source\/image\/76e61b46c755550ee9641e4c157c7700.jpg",
+                "img": "https://p.ananas.chaoxing.com/star3/origin/76e61b46c755550ee9641e4c157c7700.jpg",
                 "text": "一个免费提供海量有声读物在线搜索和试听的网站"
             },
             {
                 "title": "公众号文章管理系统",
-                "img": "source\/image\/e60a7193fd4da6232a04f2a5afc3744a.jpg",
+                "img": "https://p.ananas.chaoxing.com/star3/origin/e60a7193fd4da6232a04f2a5afc3744a.jpg",
                 "text": "标签式管理公众号文章，支持全文模糊搜索和智能搜索，支持接入公众号"
             },
             {
                 "title": "My Pages",
-                "img": "source\/image\/4f3972c941a8c568071c27549c7f322c.jpg",
+                "img": "https://p.ananas.chaoxing.com/star3/origin/4f3972c941a8c568071c27549c7f322c.jpg",
                 "text": "一款标签化管理网页收藏的工具"
             },
             {
                 "title": "鹏创音乐网",
-                "img": "source\/image\/b97a9c35f08303b48c8a7ca7a24d4432.jpg",
+                "img": "https://p.ananas.chaoxing.com/star3/origin/b97a9c35f08303b48c8a7ca7a24d4432.jpg",
                 "text": "一个免费提供海量音乐在线搜索、试听和下载的网站"
             },
             {
                 "title": "鹏创影视网",
-                "img": "source\/image\/cd97a8350b135b387e86c43070360fe3.jpg",
+                "img": "https://p.ananas.chaoxing.com/star3/origin/cd97a8350b135b387e86c43070360fe3.jpg",
                 "text": "海量影视在线免费观看"
             },
             {
                 "title": "组卷与考试系统",
-                "img": "source\/image\/670a812363ce200dd647105e414d55da.jpg",
+                "img": "https://p.ananas.chaoxing.com/star3/origin/670a812363ce200dd647105e414d55da.jpg",
                 "text": "信息技术知识模拟竞赛平台，可二次开发成为任何类型考试平台"
             },
             {
                 "title": "鹏创代码大师",
-                "img": "source\/image\/a96af02702385f7803f108fd98864183.jpg",
+                "img": "https://p.ananas.chaoxing.com/star3/origin/a96af02702385f7803f108fd98864183.jpg",
                 "text": "新一代在线代码调试工具，支持30+种编程语言代码在线编辑调试"
             },
             {
                 "title": "鹏创阅读网",
-                "img": "source\/image\/bb9c5dc6a71c71ba91aaa34780557902.jpg",
+                "img": "https://p.ananas.chaoxing.com/star3/origin/bb9c5dc6a71c71ba91aaa34780557902.jpg",
                 "text": "提供海量精品正版书刊在线阅读下载，界面清新简约，书刊资源丰富"
             }
         ],
         "rongyuqiang": [
             {
-                "img": "source\/image\/0b893a902542b31547c69fc26bf56c02.png",
+                "img": "https://p.ananas.chaoxing.com/star3/origin/0b893a902542b31547c69fc26bf56c02.png",
                 "text": "蓝桥杯全国总决赛二等奖"
             },
             {
-                "img": "source\/image\/ce7f0a3ca2b13b131968696a6656ce4c.png",
+                "img": "https://p.ananas.chaoxing.com/star3/origin/ce7f0a3ca2b13b131968696a6656ce4c.png",
                 "text": "蓝桥杯江西省一等奖"
             },
             {
-                "img": "source\/image\/24d29f05195b68c654a8002aedbfe55e.jpeg",
+                "img": "https://p.ananas.chaoxing.com/star3/origin/24d29f05195b68c654a8002aedbfe55e.jpeg",
                 "text": "三创赛校二等奖"
             },
             {
-                "img": "source\/image\/5d179ab4d5b9f54db36f293398bae29a.png",
+                "img": "https://p.ananas.chaoxing.com/star3/origin/5d179ab4d5b9f54db36f293398bae29a.png",
                 "text": "互联网+创新创业大赛优秀奖"
             }
         ]
@@ -301,7 +301,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="text-center text-md-right">
-                        <img referrerPolicy="no-referrer" src="source/image/house-4414916_640.png" alt="学习和工作计划" style="height: 200px;" class="rounded shadow-sm">
+                        <img referrerPolicy="no-referrer" src="https://p.ananas.chaoxing.com/star3/origin/cc3f88780b2402a9587eea340e662d35.png" alt="学习和工作计划" style="height: 200px;" class="rounded shadow-sm">
                     </div>
                 </div>
             </div>
@@ -330,7 +330,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="mt-4">
-                        <img referrerPolicy="no-referrer" src="source/image/gongzhonghao.png" alt="Poncon Soft" class="w-100 img-fluid rounded shadow-sm">
+                        <img referrerPolicy="no-referrer" src="https://p.ananas.chaoxing.com/star3/origin/dca982ec69ef21295fdee9f4afccefc5.png" alt="Poncon Soft" class="w-100 img-fluid rounded shadow-sm">
                     </div>
                 </div>
             </div>
@@ -343,7 +343,7 @@
         </div>
         <div class="mb-2">
             <a target="_blank" class="text-dark" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=36010802000584">
-                <img referrerPolicy="no-referrer" src="source/image/6688ed27e29b4feef62cc2518e2e4de3.png" style="height: 1em;" class="align-middle" alt="公安备案">
+                <img referrerPolicy="no-referrer" src="https://p.ananas.chaoxing.com/star3/origin/6688ed27e29b4feef62cc2518e2e4de3.png" style="height: 1em;" class="align-middle" alt="公安备案">
                 赣公网安备 36010802000584号
             </a>
         </div>
