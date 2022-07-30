@@ -10,8 +10,9 @@
 
 ## 文件夹介绍
 
-| 文件夹名称 | 描述     |
-| ---------- | -------- |
-| app/       | 公开项目 |
-| api/       | API库    |
-| source/    | 资源文件 |
+| 文件夹名称 | 描述     | 域名                | SSL支持 |
+| ---------- | -------- | ------------------- | ------- |
+| index      | 主站     | ouyangpeng.top      | 支持    |
+| app/       | 公开项目 | i.ouyangpeng.top    | 不支持  |
+| lock       | 私有项目 | lock.ouyangpeng.top | 不支持  |
+| api/       | API库    | api.ouyangpeng.top  | 支持    |
