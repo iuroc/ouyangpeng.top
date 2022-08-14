@@ -15,6 +15,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="鹏优创 - 新一代优质程序员" />
     <meta property="og:url" content="https://ouyangpeng.top/" />
+    <meta name="image" content="https://p.ananas.chaoxing.com/star3/origin/3b600ff44eff62b4a3b0bf1e1c9c802f.jpg" />
+    <meta name="og:image" content="https://p.ananas.chaoxing.com/star3/origin/3b600ff44eff62b4a3b0bf1e1c9c802f.jpg" />
     <link rel="stylesheet" href="https://cdn.staticfile.org/bootstrap/4.6.0/css/bootstrap.min.css" />
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.staticfile.org/bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
