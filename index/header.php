@@ -7,8 +7,18 @@ $header = json_decode('[
     "active": true
   },
   {
-    "name": "应用",
+    "name": "网站",
     "children": [
+      {
+          "name": "鹏创软件",
+          "url": "http://i.ouyangpeng.top/soft/",
+          "target": "_blank"
+      },
+      {
+          "name": "🔒 鹏创书刊",
+          "url": "http://lock.ouyangpeng.top/books/",
+          "target": "_blank"
+      },
       {
         "name": "My Pages",
         "url": "http://i.ouyangpeng.top/mypages/",
@@ -20,11 +30,6 @@ $header = json_decode('[
         "target": "_blank"
       },
       {
-          "name": "鹏创书刊",
-          "url": "http://i.ouyangpeng.top/books/",
-          "target": "_blank"
-      },
-      {
           "name": "模拟请求",
           "url": "http://i.ouyangpeng.top/mnqq/",
           "target": "_blank"
@@ -32,6 +37,36 @@ $header = json_decode('[
       {
           "name": "鹏创图床",
           "url": "http://i.ouyangpeng.top/tuchuang/",
+          "target": "_blank"
+      },
+      {
+          "name": "组卷考试系统",
+          "url": "http://i.ouyangpeng.top/zujuankaoshi/",
+          "target": "_blank"
+      },
+      {
+          "name": "鹏创电子书",
+          "url": "http://i.ouyangpeng.top/dzs/",
+          "target": "_blank"
+      },
+      {
+          "name": "🔒 Baby 视频",
+          "url": "http://lock.ouyangpeng.top/baby-video/",
+          "target": "_blank"
+      },
+      {
+          "name": "🔒 学术研究网",
+          "url": "http://lock.ouyangpeng.top/xueshuyanjiu/",
+          "target": "_blank"
+      }
+    ]
+  },
+  {
+    "name": "软件",
+    "children": [
+      {
+          "name": "鹏创翻译（Windows）",
+          "url": "http://123pan.ouyangpeng.top/%E8%BD%AF%E4%BB%B6/%E9%B9%8F%E5%88%9B%E7%BF%BB%E8%AF%91%20v1.8.11.exe",
           "target": "_blank"
       }
     ]
@@ -99,7 +134,7 @@ foreach ($header as $value) {
                 <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">
                     ' . $value['name'] . '
                 </a>
-                <div class="dropdown-menu shadow">
+                <div class="dropdown-menu shadow" style="max-height:200px;overflow: auto;">
                     ' . $children . '
                 </div>
             </li>';
