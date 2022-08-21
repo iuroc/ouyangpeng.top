@@ -201,7 +201,7 @@
                                 </svg> <span class="text-danger">优质程序员</span></div>
                             <div class="lead mb-3">接单各类 <span class="font-weight-bold">中小型网站、小程序、机器人</span> 开发</div>
                             <div class="btns">
-                                <div class="btn btn-primary btn-lg" target="_blank" onclick="window.open('https://qm.qq.com/cgi-bin/qm/qr?k=M-b-gog7zKyGIPLFWvrv17fcmKFaU-vI&noverify=0')">
+                                <div class="btn btn-primary btn-lg" target="_blank" onclick="window.open('tencent://message/?uin=2329632875')">
                                     立即咨询
                                 </div>
                                 <div onclick="goNode('projects')" class="btn btn-outline-success btn-lg ml-3">
