@@ -341,12 +341,12 @@
     <div class="shadow-sm text-center py-5">
         <div class="mb-2">Copyright © 2017-<?php echo date('Y'); ?> 鹏优创. All rights reserved.</div>
         <div class="mb-2">
-            备案号：<a href="https://beian.miit.gov.cn/" class="text-dark" target="_blank">赣ICP备2022000371号-1</a>
+            备案号：<a href="https://beian.miit.gov.cn/" class="text-dark" target="_blank">赣ICP备2022000371号-2</a>
         </div>
         <div class="mb-2">
-            <a target="_blank" class="text-dark" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=36010802000584">
+            <a target="_blank" class="text-dark" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=36010802000693">
                 <img referrerPolicy="no-referrer" src="https://p.ananas.chaoxing.com/star3/origin/6688ed27e29b4feef62cc2518e2e4de3.png" style="height: 1em;" class="align-middle" alt="公安备案">
-                赣公网安备 36010802000584号
+                赣公网安备 36010802000693号
             </a>
         </div>
         <!-- <div class="mb-2">网站累计访问次数：<?php
