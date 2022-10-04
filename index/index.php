@@ -307,9 +307,10 @@
                     </div>
                 </div>
             </div>
+            <div id="about" style="height: 0; font-size: 0;">关于我</div>
         </div>
     </div>
-    <div class="shadow-sm text-white" style="background-color: #1781b5;" id="about">
+    <div class="shadow-sm text-white" style="background-color: #1781b5;">
         <div class="container py-5">
             <h3 class="mb-4">关于我</h3>
             <div class="mb-2">
