@@ -24,6 +24,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="source/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="source/favicon/favicon-16x16.png">
     <link rel="manifest" href="source/favicon/site.webmanifest">
+    <meta name="baidu-site-verification" content="code-MPWNPUvLm1" />
     <style>
         *::selection {
             background: rgba(255, 71, 71, 0.3);
@@ -98,6 +99,11 @@
                 "title": "公众号机器人开发",
                 "msg": "数据资源搜索、智能问答",
                 "icon": "https://p.ananas.chaoxing.com/star3/origin/aed50be25765051c8b3e7f41d35f5ff4.png"
+            },
+            {
+                "title": "软著申请",
+                "msg": "软件著作权申请 包下证",
+                "icon": "https://p.ananas.chaoxing.com/star3/origin/f01ad1730f171ccdd2e44a176fd8ea04.png"
             },
             {
                 "title": "安卓APP开发",
@@ -323,7 +329,7 @@
                 <div class="col-lg-6">
                     <ul>
                         <li class="mb-2">电话：<a href="tel:18870142713" class="text-white">18870142713</a>（微信QQ同号）</li>
-                        <li class="mb-2">邮箱：<a href="mailto:ponconsoft@gmail.com" class="text-white">ponconsoft@gmail.com</a></li>
+                        <li class="mb-2">邮箱：<a href="mailto:m@apee.top" class="text-white">m@apee.top</a></li>
                         <li class="mb-2">微博：<a href="https://weibo.com/ponconsoft" class="text-white" target="_blank">weibo.com/ponconsoft</a></li>
                         <li class="mb-2">知乎：<a href="https://www.zhihu.com/people/ponconsoft" class="text-white" target="_blank">zhihu.com/people/ponconsoft</a></li>
                         <li class="mb-2">交流群：<a href="https://jq.qq.com/?_wv=1027&k=PQuZNehB" class="text-white" target="_blank">1085954565</a></li>
@@ -342,12 +348,12 @@
     <div class="shadow-sm text-center py-5">
         <div class="mb-2">Copyright © 2017-<?php echo date('Y'); ?> 鹏优创. All rights reserved.</div>
         <div class="mb-2">
-            备案号：<a href="https://beian.miit.gov.cn/" class="text-dark" target="_blank">赣ICP备2022000371号-1</a>
+            备案号：<a href="https://beian.miit.gov.cn/" class="text-dark" target="_blank">赣ICP备2022000371号-2</a>
         </div>
         <div class="mb-2">
-            <a target="_blank" class="text-dark" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=36010802000584">
+            <a target="_blank" class="text-dark" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=36010802000693">
                 <img referrerPolicy="no-referrer" src="https://p.ananas.chaoxing.com/star3/origin/6688ed27e29b4feef62cc2518e2e4de3.png" style="height: 1em;" class="align-middle" alt="公安备案">
-                赣公网安备 36010802000584号
+                赣公网安备 36010802000693号
             </a>
         </div>
         <!-- <div class="mb-2">网站累计访问次数：<?php
