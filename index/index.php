@@ -24,7 +24,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="source/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="source/favicon/favicon-16x16.png">
     <link rel="manifest" href="source/favicon/site.webmanifest">
-    <meta name="baidu-site-verification" content="code-MPWNPUvLm1" />
     <style>
         *::selection {
             background: rgba(255, 71, 71, 0.3);
@@ -96,14 +95,19 @@
                 "icon": "https://p.ananas.chaoxing.com/star3/origin/1b792a1e861932fcd83f65819b775185.png"
             },
             {
+                "title": "PHP 接口开发",
+                "msg": "网盘解析 数据加解密",
+                "icon": "https://p.ananas.chaoxing.com/star3/origin/47ef591123c90351bd240500aea05776.png"
+            },
+            {
+                "title": "软件著作权办理",
+                "msg": "专业办证 成功率高",
+                "icon": "https://p.ananas.chaoxing.com/star3/origin/7ef4a81e96807d72a5012067315da736.png"
+            },
+            {
                 "title": "公众号机器人开发",
                 "msg": "数据资源搜索、智能问答",
                 "icon": "https://p.ananas.chaoxing.com/star3/origin/aed50be25765051c8b3e7f41d35f5ff4.png"
-            },
-            {
-                "title": "软著申请",
-                "msg": "软件著作权申请 包下证",
-                "icon": "https://p.ananas.chaoxing.com/star3/origin/f01ad1730f171ccdd2e44a176fd8ea04.png"
             },
             {
                 "title": "安卓APP开发",
@@ -119,6 +123,11 @@
                 "title": "各类数据资源采集",
                 "msg": "音乐\/视频\/图片\/文档\/软件",
                 "icon": "https://p.ananas.chaoxing.com/star3/origin/9d5b608b02800f3da7b408e6c1422c41.png"
+            },
+            {
+                "title": "编程咨询与辅导",
+                "msg": "经验丰富 技术过硬",
+                "icon": "https://p.ananas.chaoxing.com/star3/origin/7a8b0db0a861d00969f03015fba19879.png"
             }
         ],
         "projects": [
@@ -300,10 +309,11 @@
                     <div>
                         <h3 class="mb-4">学习和工作计划</h3>
                         <ul>
-                            <li class="mb-2">完成一篇论文</li>
-                            <li class="mb-2">深入学习React、Java、Vue</li>
-                            <li class="mb-2">尝试富文本编辑器相关开发</li>
-                            <li class="mb-2">多接项目做，充实大学生活</li>
+                            <li class="mb-2">开展软著代办相关业务</li>
+                            <li class="mb-2">开展软件定制相关业务</li>
+                            <li class="mb-2">好好学习，期末不挂</li>
+                            <li class="mb-2">遵纪守法，认真工作</li>
+                            <li class="mb-2">生活不易，对自己好点</li>
                         </ul>
                     </div>
                 </div>
@@ -329,7 +339,7 @@
                 <div class="col-lg-6">
                     <ul>
                         <li class="mb-2">电话：<a href="tel:18870142713" class="text-white">18870142713</a>（微信QQ同号）</li>
-                        <li class="mb-2">邮箱：<a href="mailto:m@apee.top" class="text-white">m@apee.top</a></li>
+                        <li class="mb-2">邮箱：<a href="mailto:ponconsoft@gmail.com" class="text-white">ponconsoft@gmail.com</a></li>
                         <li class="mb-2">微博：<a href="https://weibo.com/ponconsoft" class="text-white" target="_blank">weibo.com/ponconsoft</a></li>
                         <li class="mb-2">知乎：<a href="https://www.zhihu.com/people/ponconsoft" class="text-white" target="_blank">zhihu.com/people/ponconsoft</a></li>
                         <li class="mb-2">交流群：<a href="https://jq.qq.com/?_wv=1027&k=PQuZNehB" class="text-white" target="_blank">1085954565</a></li>
