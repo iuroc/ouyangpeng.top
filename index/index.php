@@ -285,7 +285,7 @@
             </div>
         </div>
     </div>
-    <div class="shadow-sm" style="background-color: #d9a40e;">
+    <div class="shadow-sm" style="background-size: cover; background-color: #d9a40e; background-image: url(https://img.apee.top/i/791118970121990144);background-repeat: no-repeat;">
         <div class="container pt-5 pb-4">
             <h3 class="mb-4 text-white">荣誉墙</h3>
             <div class="row">
