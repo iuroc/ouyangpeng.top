@@ -82,7 +82,7 @@
     <?php
     require 'header.php';
     $data = json_decode('{
-        "top_image": "https://p.ananas.chaoxing.com/star3/origin/4c5ac69281fcf7b11c2c890ac1ecd474.png",
+        "top_image": "https://p.ananas.chaoxing.com/star3/origin/506101738c246ab7b005c3fd9d1b773a.jpg",
         "services": [
             {
                 "title": "网站开发",
