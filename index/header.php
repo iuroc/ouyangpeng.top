@@ -10,6 +10,11 @@ $header = json_decode('[
         "name": "网站",
         "children": [
             {
+                "name": "iApp 手册网",
+                "url": "http://iapp.apee.top",
+                "target": "_blank"
+            },
+            {
                 "name": "星图搜索",
                 "url": "http://i.apee.top/star-img/",
                 "target": "_blank"
