@@ -69,14 +69,16 @@
         }
     </script>
     <script>
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?021379b43b1e674fe96330ead7d4ee77";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?021379b43b1e674fe96330ead7d4ee77";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
 </head>
 
 <body>
@@ -229,7 +231,7 @@
                 </div>
                 <div class="col-md-6 d-none d-md-block">
                     <div class="text-right">
-                        <img referrerPolicy="no-referrer" src="<?php echo $data['top_image'];  ?>" style="height: 300px;" alt="鹏优创" class="mt-3">
+                        <img referrerPolicy="no-referrer" src="<?php echo $data['top_image'];  ?>" style="height: 300px;" alt="鹏优创">
                     </div>
                 </div>
             </div>
